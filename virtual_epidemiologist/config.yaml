@@ -1,0 +1,42 @@
+```yaml
+# Configuration file for Glycemic Variability and Mortality Study
+
+directories:
+  raw_data: "raw_data/"
+  scripts: "scripts/"
+  output: "output/"
+  docs: "docs/"
+  logs: "logs/"
+
+data_files:
+  bioquimicas: "raw_data/bioquimicas.csv"
+  pacientes: "raw_data/pacientes.csv"
+  farmacos: "raw_data/farmacos.csv"
+  enfermedades: "raw_data/enfermedades.csv"
+
+output_files:
+  preprocessed_data: "output/preprocessed_data.csv"
+  selected_variables: "output/selected_variables.csv"
+  engineered_features: "output/engineered_features.csv"
+  cox_model_summary: "output/cox_model_summary.txt"
+  proportional_hazards_test: "output/proportional_hazards_test.txt"
+  sensitivity_analysis: "output/sensitivity_analysis.csv"
+  arima_model_summary: "output/arima_model_summary.txt"
+  time_series_analysis: "output/time_series_analysis.png"
+  schoenfeld_residuals: "output/schoenfeld_residuals.png"
+  comprehensive_report: "docs/comprehensive_analysis_report.md"
+
+model_parameters:
+  arima_order: [1, 1, 1]
+  cox_covariates: 
+    - glucemia_cv_20_22
+    - HBa1C_cv_20_22
+    - MAGE_20_22
+    - GV_Insulin_Interaction_20_22
+    - sexo
+    - pre_dm
+    - diabetes_tipo_2_min_fecha
+    - hta_esencial_min_fecha
+    - insulina_2022
+    - pandemic_period
+```

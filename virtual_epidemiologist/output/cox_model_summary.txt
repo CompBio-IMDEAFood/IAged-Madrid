@@ -1,0 +1,34 @@
+Call:
+coxph(formula = final_formula, data = data)
+
+  n= 530229, number of events= 530229 
+
+                                  coef exp(coef)  se(coef)       z Pr(>|z|)    
+glucemia_cv_20_22            -0.035001  0.965605  0.001989 -17.598  < 2e-16 ***
+HBa1C_cv_20_22                0.046767  1.047877  0.001552  30.130  < 2e-16 ***
+MAGE_20_22                          NA        NA  0.000000      NA       NA    
+GV_Insulin_Interaction_20_22  0.014421  1.014526  0.003549   4.064 4.83e-05 ***
+sexoM                        -0.213778  0.807527  0.002855 -74.875  < 2e-16 ***
+pre_dm1                       0.104886  1.110584  0.003100  33.839  < 2e-16 ***
+dm2_dxTRUE                          NA        NA  0.000000      NA       NA    
+hta_dxTRUE                          NA        NA  0.000000      NA       NA    
+insulina_2022                -0.093223  0.910990  0.006725 -13.861  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+                             exp(coef) exp(-coef) lower .95 upper .95
+glucemia_cv_20_22               0.9656     1.0356    0.9618    0.9694
+HBa1C_cv_20_22                  1.0479     0.9543    1.0447    1.0511
+MAGE_20_22                          NA         NA        NA        NA
+GV_Insulin_Interaction_20_22    1.0145     0.9857    1.0075    1.0216
+sexoM                           0.8075     1.2383    0.8030    0.8121
+pre_dm1                         1.1106     0.9004    1.1039    1.1174
+dm2_dxTRUE                          NA         NA        NA        NA
+hta_dxTRUE                          NA         NA        NA        NA
+insulina_2022                   0.9110     1.0977    0.8991    0.9231
+
+Concordance= 0.535  (se = 0 )
+Likelihood ratio test= 8231  on 6 df,   p=<2e-16
+Wald test            = 8422  on 6 df,   p=<2e-16
+Score (logrank) test = 8447  on 6 df,   p=<2e-16
+
