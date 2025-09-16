@@ -4,7 +4,7 @@ A virtual research team addressing statistical challenges in the exploitation of
 ## An experiment within an experiment
 The IAged-Madrid virtual research group is a team of large language model (LLM) agents to assist an experiment design.
 
-<img src="IAged_madrid_group.png" alt="Logo IAged-Madrid" width="300"/>
+<img src="IAged_madrid_group.png" alt="Logo IAged-Madrid">
 
 ## How it works
 The scenario is composed by 7 consecutive discussions, assisted by human user, since workflow design to the peer review process to obtain the final document.
