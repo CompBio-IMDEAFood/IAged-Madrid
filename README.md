@@ -38,8 +38,8 @@ The process consists of 7 consecutive discussions, supported by a human user, sp
   The manuscript is embedded in the conference LaTeX template. Two review rounds are conducted, with comments from two reviewers. The coordinator then revises the manuscript based on feedback. The deliverable is the **final, conference-ready manuscript**.
 
 ## Requeriments
-requires-python = ">=3.10"
-dependencies = [
+* requires-python = ">=3.10"
+  * dependencies = [
     "virtual_lab",
     "pymysql",
     "notebook",
