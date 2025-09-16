@@ -4,6 +4,8 @@ A virtual research team addressing statistical challenges in the exploitation of
 ## An experiment within an experiment
 The IAged-Madrid virtual research group is a team of large language model (LLM) agents to assist an experiment design.
 
+<img src="IAged_madrid_group.png" alt="Logo IAged-Madrid" width="300"/>
+
 ## How it works
 The scenario is composed by 7 consecutive discussions, assisted by human user, since workflow design to the peer review process to obtain the final document.
 * **Discussion 1:** Workflow design. In this first meeting of type **"individual_meeting"**, the user provide to the coordinator of the project, **the aim of the project** or the hypothesis to validate; a **dict database**, including the table names, and the column names of each table of the database. The last request is obtain the **deliverable**, a **provisional workflow**.
